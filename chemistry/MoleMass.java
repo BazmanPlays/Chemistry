@@ -56,7 +56,7 @@ public class MoleMass {
 	}	
 	//Finds the molecular mass for that specific molecule
 	public double moleMass(String m) throws Exception {
-		RandomAccessFile ram = new RandomAccessFile("C:\\Users\\bazma\\Desktop\\New folder\\ChemistryElement.txt", "r");
+		RandomAccessFile ram = new RandomAccessFile("ChemistryElement.txt", "r");
 		String line = ram.readLine();
 		String lineTwo = line.substring(0, 2);
 		String lineThree = line.substring(3);
